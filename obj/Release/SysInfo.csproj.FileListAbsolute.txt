@@ -1,0 +1,11 @@
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\bin\Release\SysInfo.exe.config
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\bin\Release\SysInfo.exe
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\bin\Release\SysInfo.pdb
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.AboutForm.resources
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.DataForm.resources
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.FormMain.resources
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.License.resources
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.Properties.Resources.resources
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.csproj.GenerateResource.Cache
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.exe
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.pdb
