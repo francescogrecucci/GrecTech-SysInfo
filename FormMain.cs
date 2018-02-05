@@ -411,7 +411,7 @@ namespace SysInfo
         private void button16_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button17.Text + " Information");
+            datafrm.setFormName(button16.Text + " Information");
             datafrm.setDataClass("Win32_PortConnector");
             datafrm.Show();
         }
