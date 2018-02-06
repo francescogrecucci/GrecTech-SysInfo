@@ -1,12 +1,12 @@
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\bin\Debug\SysInfo.exe.config
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\bin\Debug\SysInfo.exe
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\bin\Debug\SysInfo.pdb
-D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.csprojResolveAssemblyReference.cache
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.AboutForm.resources
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.DataForm.resources
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.FormMain.resources
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.License.resources
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.Properties.Resources.resources
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.csproj.GenerateResource.Cache
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.exe
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.pdb
-D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.License.resources
-D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.DataForm.resources
-D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.AboutForm.resources
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Debug\SysInfo.csprojResolveAssemblyReference.cache

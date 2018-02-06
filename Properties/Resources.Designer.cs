@@ -22,7 +22,7 @@ namespace SysInfo.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace SysInfo.Properties {
         ///   Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SysInfo.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace SysInfo.Properties {
         ///   ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap application_x_pcb_layout {
+        public static System.Drawing.Bitmap application_x_pcb_layout {
             get {
                 object obj = ResourceManager.GetObject("application-x-pcb-layout", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap audio_card {
+        public static System.Drawing.Bitmap audio_card {
             get {
                 object obj = ResourceManager.GetObject("audio-card", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -83,7 +83,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap battery_2 {
+        public static System.Drawing.Bitmap battery_2 {
             get {
                 object obj = ResourceManager.GetObject("battery-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -93,7 +93,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap code_variable {
+        public static System.Drawing.Bitmap code_variable {
             get {
                 object obj = ResourceManager.GetObject("code-variable", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -103,7 +103,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap computer_61 {
+        public static System.Drawing.Bitmap computer_61 {
             get {
                 object obj = ResourceManager.GetObject("computer-61", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -113,7 +113,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cpu {
+        public static System.Drawing.Bitmap cpu {
             get {
                 object obj = ResourceManager.GetObject("cpu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -123,7 +123,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap disksfilesystems {
+        public static System.Drawing.Bitmap disksfilesystems {
             get {
                 object obj = ResourceManager.GetObject("disksfilesystems", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -133,7 +133,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap distributions_windows {
+        public static System.Drawing.Bitmap distributions_windows {
             get {
                 object obj = ResourceManager.GetObject("distributions-windows", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -143,7 +143,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap document_print_3 {
+        public static System.Drawing.Bitmap document_print_3 {
             get {
                 object obj = ResourceManager.GetObject("document-print-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -153,7 +153,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap drive_harddisk_3 {
+        public static System.Drawing.Bitmap drive_harddisk_3 {
             get {
                 object obj = ResourceManager.GetObject("drive-harddisk-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -163,7 +163,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap drive_optical_3 {
+        public static System.Drawing.Bitmap drive_optical_3 {
             get {
                 object obj = ResourceManager.GetObject("drive-optical-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -173,7 +173,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap media_floppy_3 {
+        public static System.Drawing.Bitmap media_floppy_3 {
             get {
                 object obj = ResourceManager.GetObject("media-floppy-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -183,7 +183,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap memory {
+        public static System.Drawing.Bitmap memory {
             get {
                 object obj = ResourceManager.GetObject("memory", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -193,7 +193,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap memory_rom {
+        public static System.Drawing.Bitmap memory_rom {
             get {
                 object obj = ResourceManager.GetObject("memory-rom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -203,7 +203,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap network_card_wireless {
+        public static System.Drawing.Bitmap network_card_wireless {
             get {
                 object obj = ResourceManager.GetObject("network-card-wireless", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -213,7 +213,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap network_connect_2 {
+        public static System.Drawing.Bitmap network_connect_2 {
             get {
                 object obj = ResourceManager.GetObject("network-connect-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -223,7 +223,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap network_wired_2 {
+        public static System.Drawing.Bitmap network_wired_2 {
             get {
                 object obj = ResourceManager.GetObject("network-wired-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -233,7 +233,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap system_partition_manager {
+        public static System.Drawing.Bitmap system_partition_manager {
             get {
                 object obj = ResourceManager.GetObject("system-partition-manager", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -243,7 +243,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap system_users_3 {
+        public static System.Drawing.Bitmap system_users_3 {
             get {
                 object obj = ResourceManager.GetObject("system-users-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -253,7 +253,7 @@ namespace SysInfo.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap video_television_2 {
+        public static System.Drawing.Bitmap video_television_2 {
             get {
                 object obj = ResourceManager.GetObject("video-television-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
