@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Management;
 
@@ -23,58 +21,104 @@ namespace SysInfo
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            int ok = 0;         //Parameter for checking the avaiability of a device.
+            int ok = 0;                                                         //Parameter for checking the avaiability of a device.
+            string notAvb = "Press the button to see more detailed infos.";    //Error String
+
 
             /* COMPUTER SYSTEM INFORMATIONS*/
 
-            ManagementObjectSearcher computer_system = new ManagementObjectSearcher("select * from " + "Win32_ComputerSystem");
-            foreach (ManagementObject data in computer_system.Get())
-            {
-                foreach (PropertyData PC in data.Properties)
-                {
 
-                    computerSystem.Text = data["Caption"].ToString();
-                    computerManufacturer.Text = data["Manufacturer"].ToString();
-                    computerModel.Text = data["Model"].ToString();
+            try
+            {
+
+                ManagementObjectSearcher computer_system = new ManagementObjectSearcher("select * from " + "Win32_ComputerSystem");
+                foreach (ManagementObject data in computer_system.Get())
+                {
+                    foreach (PropertyData PC in data.Properties)
+                    {
+
+                        computerSystem.Text = data["Caption"].ToString();
+                        computerManufacturer.Text = data["Manufacturer"].ToString();
+                        computerModel.Text = data["Model"].ToString();
+                    }
+
                 }
+            }
+            catch
+            {
+                computerSystem.Text = notAvb;
+                computerManufacturer.Text = notAvb;
+                computerModel.Text = notAvb;
 
             }
 
             /* CPU INFORMATIONS */
 
-            ManagementObjectSearcher cpu = new ManagementObjectSearcher("select * from " + "Win32_Processor");
-            foreach (ManagementObject data in cpu.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+
+                ManagementObjectSearcher cpu = new ManagementObjectSearcher("select * from " + "Win32_Processor");
+                foreach (ManagementObject data in cpu.Get())
                 {
+                    foreach (PropertyData PC in data.Properties)
+                    {
 
-                    processor.Text = data["Name"].ToString();
-                    processorCores.Text = data["NumberOfCores"].ToString();
-                    processorSocket.Text = data["SocketDesignation"].ToString();
+                        processor.Text = data["Name"].ToString();
+
+                        try // for OS that doesn't have Cores and Socket Instances (Windows XP)
+                        {
+                            processorCores.Text = data["NumberOfCores"].ToString();
+                            processorSocket.Text = data["SocketDesignation"].ToString();
+                        }
+                        catch(Exception)
+                        {
+                            label1.Visible = false;
+                            label6.Visible = false;
+                            processorCores.Visible = false;
+                            processorSocket.Visible = false;
+                        
+                        }
+                    }
+
                 }
-
+            }
+            catch
+            {
+                processorCores.Text = notAvb;
+                processorSocket.Text = notAvb;
             }
 
+
             /* RAM INFORMATIONS */
-            ManagementObjectSearcher ram = new ManagementObjectSearcher("select * from " + "Win32_PhysicalMemoryArray");
-            foreach (ManagementObject data in ram.Get())
+
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+                ManagementObjectSearcher ram = new ManagementObjectSearcher("select * from " + "Win32_PhysicalMemoryArray");
+                foreach (ManagementObject data in ram.Get())
                 {
+                    foreach (PropertyData PC in data.Properties)
+                    {
 
-                    /*KB to MB Conversion (Capacity)*/
+                        /*KB to MB Conversion (Capacity)*/
 
-                    int mbcapacity;
-                    int gbcapacity;
+                        int mbcapacity;
+                        int gbcapacity;
 
-                    mbcapacity = Int32.Parse(data["MaxCapacity"].ToString());
-                    mbcapacity = mbcapacity / 1024;
-                    gbcapacity = mbcapacity / 1024;
+                        mbcapacity = Int32.Parse(data["MaxCapacity"].ToString());
+                        mbcapacity = mbcapacity / 1024;
+                        gbcapacity = mbcapacity / 1024;
 
-                    maxCapacity.Text = gbcapacity + "GB" + " (" + mbcapacity + "MB" + ")";
-                    memoryDevices.Text = data["MemoryDevices"].ToString();
+                        maxCapacity.Text = gbcapacity + "GB" + " (" + mbcapacity + "MB" + ")";
+                        memoryDevices.Text = data["MemoryDevices"].ToString();
+                    }
+
                 }
+            }
 
+            catch
+            {
+                maxCapacity.Text = notAvb;
+                memoryDevices.Text = notAvb;
             }
 
             /* BIOS INFORMATIONS */
@@ -91,63 +135,110 @@ namespace SysInfo
             }
 
             /* VIDEO INFORMATIONS */
-            ManagementObjectSearcher video = new ManagementObjectSearcher("select * from " + "Win32_VideoController");
-            foreach (ManagementObject data in video.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+             
+                ManagementObjectSearcher video = new ManagementObjectSearcher("select * from " + "Win32_VideoController");
+                foreach (ManagementObject data in video.Get())
                 {
+                    foreach (PropertyData PC in data.Properties)
+                    {
 
-                    videoName.Text = data["Name"].ToString();
-                    videoVersion.Text = data["DriverVersion"].ToString();
-                    videoDate.Text = data["DriverDate"].ToString();
+                        videoName.Text = data["Name"].ToString();
+                        videoVersion.Text = data["DriverVersion"].ToString();
+                        videoDate.Text = data["DriverDate"].ToString();
+                    }
+
                 }
-
+            }
+            catch
+            {
+                videoName.Text = notAvb;
+                videoVersion.Text = notAvb;
+                videoDate.Text = notAvb;
             }
 
             /* OS INFORMATIONS */
-            ManagementObjectSearcher opsys = new ManagementObjectSearcher("select * from " + "Win32_OperatingSystem");
-            foreach (ManagementObject data in opsys.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+                ManagementObjectSearcher opsys = new ManagementObjectSearcher("select * from " + "Win32_OperatingSystem");
+                foreach (ManagementObject data in opsys.Get())
                 {
+                    foreach (PropertyData PC in data.Properties)
+                    {
+                        try
+                        {
+                            osName.Text = data["Caption"].ToString() + " " + data["OSArchitecture"].ToString();
+                        }
+                        catch
+                        {
+                            osName.Text = data["Caption"].ToString();   // For OS that doesn't have Architecture Instance (Windows XP)
+                        }
+                        osDirectory.Text = data["SystemDirectory"].ToString();
+                        osVersion.Text = data["Version"].ToString();
+                    }
 
-                    osName.Text = data["Caption"].ToString() + " " + data["OSArchitecture"].ToString();
-                    osDirectory.Text = data["SystemDirectory"].ToString();
-                    osVersion.Text = data["Version"].ToString();
                 }
-
+            }
+            catch
+            {
+                osName.Text = notAvb;
+                osDirectory.Text = notAvb;
+                osVersion.Text = notAvb;
             }
 
             /* MOTHERBOARD INFORMATIONS */
-            ManagementObjectSearcher mobo = new ManagementObjectSearcher("select * from " + "Win32_BaseBoard");
-            foreach (ManagementObject data in mobo.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+                ManagementObjectSearcher mobo = new ManagementObjectSearcher("select * from " + "Win32_BaseBoard");
+                foreach (ManagementObject data in mobo.Get())
                 {
+                    foreach (PropertyData PC in data.Properties)
+                    {
 
-                    baseBoardManu.Text = data["Manufacturer"].ToString();
-                    baseBoardProd.Text = data["Product"].ToString();
-                    baseBoardSerial.Text = data["SerialNumber"].ToString();
+                        baseBoardManu.Text = data["Manufacturer"].ToString();
+                        baseBoardProd.Text = data["Product"].ToString();
+                        baseBoardSerial.Text = data["SerialNumber"].ToString();
+                    }
+
                 }
-
+            }
+            catch
+            {
+                baseBoardManu.Text = notAvb;
+                baseBoardProd.Text = notAvb;
+                baseBoardSerial.Text = notAvb;
             }
 
             /* BATTERY INFORMATIONS */
-            ok = 0;
-            ManagementObjectSearcher battery = new ManagementObjectSearcher("select * from " + "Win32_Battery");
-            foreach (ManagementObject data in battery.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+                ok = 0;
+                ManagementObjectSearcher battery = new ManagementObjectSearcher("select * from " + "Win32_Battery");
+                foreach (ManagementObject data in battery.Get())
                 {
-                    batteryEstimated.Text = data["EstimatedChargeRemaining"].ToString();
-                    batteryFullCharge.Text = data["FullChargeCapacity"].ToString();
-                    batteryStatus.Text = data["BatteryStatus"].ToString();
-                    ok++;
+                    foreach (PropertyData PC in data.Properties)
+                    {
+                        batteryEstimated.Text = data["EstimatedChargeRemaining"].ToString();
+                        batteryFullCharge.Text = data["FullChargeCapacity"].ToString();
+                        batteryStatus.Text = data["BatteryStatus"].ToString();
+                        ok++;
+                    }
+
                 }
 
+                if (ok == 0)
+                {
+                    button15.Enabled = false;
+                    batteryEstimated.Visible = false;
+                    batteryFullCharge.Visible = false;
+                    batteryStatus.Visible = false;
+                    label24.Enabled = false;
+                    label21.Enabled = false;
+                    label22.Enabled = false;
+                }
             }
-
-            if (ok == 0)
+            catch
             {
                 button15.Enabled = false;
                 batteryEstimated.Visible = false;
@@ -158,107 +249,133 @@ namespace SysInfo
                 label22.Enabled = false;
             }
 
+
             /* CD-ROM/DVD-ROM INFORMATIONS */
-            ok = 0;
-            ManagementObjectSearcher cdrom = new ManagementObjectSearcher("select * from " + "Win32_CDROMDrive");
-            foreach (ManagementObject data in cdrom.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+                ok = 0;
+                ManagementObjectSearcher cdrom = new ManagementObjectSearcher("select * from " + "Win32_CDROMDrive");
+                foreach (ManagementObject data in cdrom.Get())
                 {
-                    cdLetter.Text = data["Drive"].ToString();
-                    cdName.Text = data["Name"].ToString();
-                    cdType.Text = data["MediaType"].ToString();
-                    ok++;
+                    foreach (PropertyData PC in data.Properties)
+                    {
+                        cdLetter.Text = data["Drive"].ToString();
+                        cdName.Text = data["Name"].ToString();
+                        cdType.Text = data["MediaType"].ToString();
+                        ok++;
+                    }
+
                 }
 
+                if (ok == 0)
+                {
+                    button13.Enabled = false;
+                    cdLetter.Visible = false;
+                    cdName.Visible = false;
+                    cdType.Visible = false;
+                    label19.Enabled = false;
+                    label20.Enabled = false;
+                    label25.Enabled = false;
+                }
             }
-
-            if (ok == 0)
+            catch
             {
-                button13.Enabled = false;
-                cdLetter.Visible = false;
-                cdName.Visible = false;
-                cdType.Visible = false;
-                label19.Enabled = false;
-                label20.Enabled = false;
-                label25.Enabled = false;
+                cdLetter.Text = notAvb;
+                cdName.Text = notAvb;
+                cdType.Text = notAvb;
             }
 
             /* HARD DRIVES INFORMATIONS*/
 
-            ManagementObjectSearcher disk = new ManagementObjectSearcher("select * from " + "Win32_DiskDrive");
-            foreach (ManagementObject data in disk.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+                ManagementObjectSearcher disk = new ManagementObjectSearcher("select * from " + "Win32_DiskDrive");
+                foreach (ManagementObject data in disk.Get())
                 {
-                    diskInterface.Text = data["InterfaceType"].ToString();
-                    diskName.Text = data["Caption"].ToString();
+                    foreach (PropertyData PC in data.Properties)
+                    {
+                        diskInterface.Text = data["InterfaceType"].ToString();
+                        diskName.Text = data["Caption"].ToString();
 
-                    long mbsize, gbsize;
+                        long mbsize, gbsize;
 
-                    mbsize = Int64.Parse(data["Size"].ToString());
-                    mbsize = (mbsize / 1024) / 1024;
-                    gbsize = mbsize / 1024;
+                        mbsize = Int64.Parse(data["Size"].ToString());
+                        mbsize = (mbsize / 1024) / 1024;
+                        gbsize = mbsize / 1024;
 
-                    diskSize.Text = gbsize + "GB" + " (" + mbsize + "MB" + ")";
+                        diskSize.Text = gbsize + "GB" + " (" + mbsize + "MB" + ")";
+                    }
+
                 }
-
+            }
+            catch
+            {
+                diskInterface.Text = notAvb;
+                diskName.Text = notAvb;
             }
 
             /* AUDIO INFORMATIONS */
-            ok = 0;
-            ManagementObjectSearcher sound = new ManagementObjectSearcher("select * from " + "Win32_SoundDevice");
-            foreach (ManagementObject data in sound.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+                ok = 0;
+                ManagementObjectSearcher sound = new ManagementObjectSearcher("select * from " + "Win32_SoundDevice");
+                foreach (ManagementObject data in sound.Get())
                 {
-                    soundName.Text = data["Caption"].ToString();
-                    soundManu.Text = data["Manufacturer"].ToString();
-                    ok++;
+                    foreach (PropertyData PC in data.Properties)
+                    {
+                        soundName.Text = data["Caption"].ToString();
+                        soundManu.Text = data["Manufacturer"].ToString();
+                        ok++;
+                    }
+
                 }
 
+                if (ok == 0)
+                {
+                    button6.Enabled = false;
+                    soundName.Visible = false;
+                    soundManu.Visible = false;
+                    label26.Enabled = false;
+                    label27.Enabled = false;
+                }
             }
-
-            if (ok == 0)
+            catch
             {
-                button6.Enabled = false;
-                soundName.Visible = false;
-                soundManu.Visible = false;
-                label26.Enabled = false;
-                label27.Enabled = false;
+                soundName.Text = notAvb;
+                soundManu.Text = notAvb;
             }
 
 
             /* NETWORK INFORMATIONS */
-            ok = 0;
-            ManagementObjectSearcher network = new ManagementObjectSearcher("select * from " + "Win32_NetworkAdapter");
-            foreach (ManagementObject data in network.Get())
+            try
             {
-                foreach (PropertyData PC in data.Properties)
+                ok = 0;
+                ManagementObjectSearcher network = new ManagementObjectSearcher("select * from " + "Win32_NetworkAdapter");
+                foreach (ManagementObject data in network.Get())
                 {
-                    networkName.Text = data["Description"].ToString();
-                    try
+                    foreach (PropertyData PC in data.Properties)
                     {
+                        networkName.Text = data["Description"].ToString();
                         networkManu.Text = data["Manufacturer"].ToString();
+                        ok++;
                     }
-                    catch
-                    {
-                        networkManu.Text = "Not avaiable";
-                    }
-                    ok++;
+
                 }
 
+                if (ok == 0)
+                {
+                    button5.Enabled = false;
+                    networkName.Visible = false;
+                    networkManu.Visible = false;
+                    label32.Enabled = false;
+                    label28.Enabled = false;
+                }
             }
-
-            if (ok == 0)
+            catch
             {
-                button5.Enabled = false;
-                networkName.Visible = false;
-                networkManu.Visible = false;
-                label32.Enabled = false;
-                label28.Enabled = false;
+                networkName.Text = notAvb;
+                networkManu.Text = notAvb;
             }
-
 
             this.Text = "System Information on " + computerSystem.Text;
         }
