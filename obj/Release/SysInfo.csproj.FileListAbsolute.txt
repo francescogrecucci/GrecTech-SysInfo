@@ -9,3 +9,4 @@ D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.csproj.GenerateResource.Cache
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.exe
 D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.pdb
+D:\Francesco\Documents\Visual Studio 2017\Projects\Dustpan64\SysInfo\obj\Release\SysInfo.csprojResolveAssemblyReference.cache

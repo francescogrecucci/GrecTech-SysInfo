@@ -118,64 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="document-print-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\document-print-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cards-variant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cards-variant.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="video-television-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\video-television-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="network" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\network.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="memory" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\memory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chart-pie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chart-pie.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="memory-rom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\memory-rom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="battery-unknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battery-unknown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="system-users-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\system-users-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\table.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="drive-optical-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\drive-optical-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="music-note-eighth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\music-note-eighth.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="network-wired-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\network-wired-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="desktop-classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desktop-classic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="system-partition-manager" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\system-partition-manager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="disk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="media-floppy-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\media-floppy-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chart-arc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chart-arc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="application-x-pcb-layout" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\application-x-pcb-layout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="disksfilesystems" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\disksfilesystems.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="memory_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memory_f.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="computer-61" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\computer-61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="harddisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\harddisk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="drive-harddisk-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\drive-harddisk-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="network-card-wireless" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\network-card-wireless.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="swap-vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swap-vertical.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="code-variable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\code-variable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cpu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cpu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chip.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="distributions-windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\distributions-windows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="account-key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\account-key.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="audio-card" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\audio-card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="television-classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\television-classic.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="battery-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\battery-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="network-connect-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\network-connect-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chip1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chip.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

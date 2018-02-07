@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Management;
+using Microsoft.VisualBasic;
 
 namespace SysInfo
 {
@@ -40,6 +41,7 @@ namespace SysInfo
                         computerSystem.Text = data["Caption"].ToString();
                         computerManufacturer.Text = data["Manufacturer"].ToString();
                         computerModel.Text = data["Model"].ToString();
+                        computerType.Text = data["SystemType"].ToString();
                     }
 
                 }
@@ -120,6 +122,17 @@ namespace SysInfo
                 maxCapacity.Text = notAvb;
                 memoryDevices.Text = notAvb;
             }
+
+            long installed_mbcapacity;
+            long installed_gbcapacity;
+
+
+
+            installed_mbcapacity = Int64.Parse(GetTotalMemoryInBytes().ToString());
+            installed_mbcapacity = (installed_mbcapacity / 1024) / 1024;
+            installed_gbcapacity = installed_mbcapacity / 1000;
+            memoryInstalled.Text = installed_gbcapacity + "GB" + " (" + installed_mbcapacity + "MB" + ")";
+
 
             /* BIOS INFORMATIONS */
             ManagementObjectSearcher bios = new ManagementObjectSearcher("select * from " + "Win32_BIOS");
@@ -221,7 +234,7 @@ namespace SysInfo
                     {
                         batteryEstimated.Text = data["EstimatedChargeRemaining"].ToString();
                         batteryFullCharge.Text = data["FullChargeCapacity"].ToString();
-                        batteryStatus.Text = data["BatteryStatus"].ToString();
+                        batteryStatus.Text = data["Status"].ToString();
                         ok++;
                     }
 
@@ -240,7 +253,7 @@ namespace SysInfo
             }
             catch
             {
-                button15.Enabled = false;
+                button15.Enabled = true;
                 batteryEstimated.Visible = false;
                 batteryFullCharge.Visible = false;
                 batteryStatus.Visible = false;
@@ -381,7 +394,10 @@ namespace SysInfo
         }
 
 
-
+        static ulong GetTotalMemoryInBytes()
+        {
+            return new Microsoft.VisualBasic.Devices.ComputerInfo().TotalPhysicalMemory;
+        }
 
         private void licenseToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -409,7 +425,7 @@ namespace SysInfo
         {
             DataForm datafrm = new DataForm();
             datafrm.setFormName(button3.Text + " Information");
-            datafrm.setDataClass("Win32_PhysicalMemoryArray");
+            datafrm.setDataClass("Win32_PhysicalMemory");
             datafrm.Show();
         }
 
