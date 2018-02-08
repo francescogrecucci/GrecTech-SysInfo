@@ -25,7 +25,6 @@ namespace SysInfo
             int ok = 0;                                                         //Parameter for checking the avaiability of a device.
             string notAvb = "Press the button to see more detailed infos.";    //Error String
 
-
             /* COMPUTER SYSTEM INFORMATIONS*/
 
 
