@@ -117,73 +117,151 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="columnHeader2.Text" xml:space="preserve">
-    <value>Value</value>
+  <data name="about" xml:space="preserve">
+    <value>Аб SysInfo</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="accounts" xml:space="preserve">
+    <value>рахункі</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
-    <value>300</value>
+  <data name="battery" xml:space="preserve">
+    <value>акумулятар</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
-    <value>columnHeader2</value>
+  <data name="bios" xml:space="preserve">
+    <value>BIOS</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="capacity" xml:space="preserve">
+    <value>магутнасць</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="computer" xml:space="preserve">
+    <value>кампутар</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lst.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="connection_ports" xml:space="preserve">
+    <value>парты падключэння</value>
   </data>
-  <data name="&gt;&gt;lst.Name" xml:space="preserve">
-    <value>lst</value>
+  <data name="cores" xml:space="preserve">
+    <value>стрыжні</value>
   </data>
-  <data name="&gt;&gt;lst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cpu" xml:space="preserve">
+    <value>Цэнтральны працэсар</value>
   </data>
-  <data name="&gt;&gt;lst.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="directory" xml:space="preserve">
+    <value>каталог</value>
   </data>
-  <data name="&gt;&gt;lst.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="disk_partitions" xml:space="preserve">
+    <value>раздзелы дыска</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="driver_date" xml:space="preserve">
+    <value>Дата драйвера</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="driver_version" xml:space="preserve">
+    <value>версія драйвера</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
-    <value>columnHeader1</value>
+  <data name="environment_variables" xml:space="preserve">
+    <value>зменныя асяроддзя</value>
   </data>
-  <data name="lst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="exit" xml:space="preserve">
+    <value>Выхад з SysInfo ...</value>
   </data>
-  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+  <data name="file" xml:space="preserve">
+    <value>файл</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="full_charge" xml:space="preserve">
+    <value>поўная зарадка</value>
   </data>
-  <data name="lst.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="hard_disks" xml:space="preserve">
+    <value>жорсткія дыскі</value>
   </data>
-  <data name="columnHeader1.Text" xml:space="preserve">
-    <value>Name</value>
+  <data name="informations" xml:space="preserve">
+    <value>інфармацыя</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="installed" xml:space="preserve">
+    <value>Устаноўленая</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>DataForm</value>
+  <data name="installed_codecs" xml:space="preserve">
+    <value>устаноўленыя кодэк</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="letter" xml:space="preserve">
+    <value>ліст</value>
+  </data>
+  <data name="license" xml:space="preserve">
+    <value>ліцэнзія</value>
+  </data>
+  <data name="logical_disks" xml:space="preserve">
+    <value>лагічныя дыскі</value>
+  </data>
+  <data name="manufacturer" xml:space="preserve">
+    <value>вытворца</value>
+  </data>
+  <data name="max_available" xml:space="preserve">
+    <value>максімальна даступная</value>
+  </data>
+  <data name="model" xml:space="preserve">
+    <value>мадэль</value>
+  </data>
+  <data name="motherboard" xml:space="preserve">
+    <value>матчына плата</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>імя</value>
+  </data>
+  <data name="network_adapters" xml:space="preserve">
+    <value>сеткавыя адаптары</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>добра</value>
+  </data>
+  <data name="operating_system" xml:space="preserve">
+    <value>Аперацыйная сістэма</value>
+  </data>
+  <data name="optical_drives" xml:space="preserve">
+    <value>аптычныя прывады</value>
+  </data>
+  <data name="press_buttons" xml:space="preserve">
+    <value>Націсніце для атрымання больш падрабязнай інфармацыі.</value>
+  </data>
+  <data name="printers" xml:space="preserve">
+    <value>прынтэры</value>
+  </data>
+  <data name="ram" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="rated_charge" xml:space="preserve">
+    <value>намінальны Charge</value>
+  </data>
+  <data name="shared_printers" xml:space="preserve">
+    <value>агульныя прынтэры</value>
+  </data>
+  <data name="slots" xml:space="preserve">
+    <value>гульнявыя аўтаматы</value>
+  </data>
+  <data name="socket" xml:space="preserve">
+    <value>разетка</value>
+  </data>
+  <data name="sound_devices" xml:space="preserve">
+    <value>гукавыя прылады</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>статус</value>
+  </data>
+  <data name="system_type" xml:space="preserve">
+    <value>тып сістэмы</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>тып</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>значэнне</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>версія</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>відэа</value>
+  </data>
+  <data name="_help" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="_interface" xml:space="preserve">
+    <value>інтэрфейс</value>
+  </data>
 </root>

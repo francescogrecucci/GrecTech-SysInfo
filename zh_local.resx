@@ -117,73 +117,151 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="columnHeader2.Text" xml:space="preserve">
-    <value>Value</value>
+  <data name="about" xml:space="preserve">
+    <value>约 ＳｙｓＩｎｆｏ</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="accounts" xml:space="preserve">
+    <value>用户</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
-    <value>300</value>
+  <data name="battery" xml:space="preserve">
+    <value>电池</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
-    <value>columnHeader2</value>
+  <data name="bios" xml:space="preserve">
+    <value>ＢＩＯＳ</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="capacity" xml:space="preserve">
+    <value>容量</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="computer" xml:space="preserve">
+    <value>计算机</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lst.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="connection_ports" xml:space="preserve">
+    <value>连接端口</value>
   </data>
-  <data name="&gt;&gt;lst.Name" xml:space="preserve">
-    <value>lst</value>
+  <data name="cores" xml:space="preserve">
+    <value>内核</value>
   </data>
-  <data name="&gt;&gt;lst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cpu" xml:space="preserve">
+    <value>ＣＰＵ</value>
   </data>
-  <data name="&gt;&gt;lst.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="disk_partitions" xml:space="preserve">
+    <value>磁盘分区</value>
   </data>
-  <data name="&gt;&gt;lst.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="driver_date" xml:space="preserve">
+    <value>日期</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="driver_version" xml:space="preserve">
+    <value>版本。</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="environment_variables" xml:space="preserve">
+    <value>环境变量</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
-    <value>columnHeader1</value>
+  <data name="exit" xml:space="preserve">
+    <value>退出 ＳｙｓＩｎｆｏ ...</value>
   </data>
-  <data name="lst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="file" xml:space="preserve">
+    <value>文件</value>
   </data>
-  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+  <data name="full_charge" xml:space="preserve">
+    <value>充满电</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="hard_disks" xml:space="preserve">
+    <value>硬盘</value>
   </data>
-  <data name="lst.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="informations" xml:space="preserve">
+    <value>信息。</value>
   </data>
-  <data name="columnHeader1.Text" xml:space="preserve">
-    <value>Name</value>
+  <data name="installed" xml:space="preserve">
+    <value>已安装</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="installed_codecs" xml:space="preserve">
+    <value>编解码器</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>DataForm</value>
+  <data name="letter" xml:space="preserve">
+    <value>信</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="license" xml:space="preserve">
+    <value>许可</value>
+  </data>
+  <data name="logical_disks" xml:space="preserve">
+    <value>逻辑磁盘。</value>
+  </data>
+  <data name="manufacturer" xml:space="preserve">
+    <value>制造商</value>
+  </data>
+  <data name="max_available" xml:space="preserve">
+    <value>最大可用</value>
+  </data>
+  <data name="motherboard" xml:space="preserve">
+    <value>主板</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>名称。</value>
+  </data>
+  <data name="network_adapters" xml:space="preserve">
+    <value>网络适配器。</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>"确定"</value>
+  </data>
+  <data name="operating_system" xml:space="preserve">
+    <value>ＭＳ　Ｗｉｎｄｏｗｓ</value>
+  </data>
+  <data name="optical_drives" xml:space="preserve">
+    <value>光盘驱动器</value>
+  </data>
+  <data name="press_buttons" xml:space="preserve">
+    <value>有关更多详细信息，请按</value>
+  </data>
+  <data name="printers" xml:space="preserve">
+    <value>打印机</value>
+  </data>
+  <data name="ram" xml:space="preserve">
+    <value>ＲＡＭ</value>
+  </data>
+  <data name="rated_charge" xml:space="preserve">
+    <value>额定电流充电</value>
+  </data>
+  <data name="shared_printers" xml:space="preserve">
+    <value>共享打印机</value>
+  </data>
+  <data name="slots" xml:space="preserve">
+    <value>插槽</value>
+  </data>
+  <data name="socket" xml:space="preserve">
+    <value>插座</value>
+  </data>
+  <data name="sound_devices" xml:space="preserve">
+    <value>音频设备</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>状态。</value>
+  </data>
+  <data name="system_type" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>类型。</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>值。</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>版本。</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="_help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="_interface" xml:space="preserve">
+    <value>接口</value>
+  </data>
+  <data name="model" xml:space="preserve">
+    <value>模型</value>
+  </data>
+  <data name="directory" xml:space="preserve">
+    <value>目录</value>
+  </data>
 </root>

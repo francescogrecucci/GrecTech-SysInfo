@@ -117,73 +117,151 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="columnHeader2.Text" xml:space="preserve">
-    <value>Value</value>
+  <data name="about" xml:space="preserve">
+    <value>SysInfo 정보</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="accounts" xml:space="preserve">
+    <value>계정</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
-    <value>300</value>
+  <data name="battery" xml:space="preserve">
+    <value>배터리</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
-    <value>columnHeader2</value>
+  <data name="bios" xml:space="preserve">
+    <value>BIOS</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="capacity" xml:space="preserve">
+    <value>생산 능력</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="computer" xml:space="preserve">
+    <value>컴퓨터</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lst.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="connection_ports" xml:space="preserve">
+    <value>연결 포트</value>
   </data>
-  <data name="&gt;&gt;lst.Name" xml:space="preserve">
-    <value>lst</value>
+  <data name="cores" xml:space="preserve">
+    <value>코어</value>
   </data>
-  <data name="&gt;&gt;lst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cpu" xml:space="preserve">
+    <value>CPU</value>
   </data>
-  <data name="&gt;&gt;lst.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="directory" xml:space="preserve">
+    <value>예배 규칙서</value>
   </data>
-  <data name="&gt;&gt;lst.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="disk_partitions" xml:space="preserve">
+    <value>디스크 파티션</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="driver_date" xml:space="preserve">
+    <value>드라이버 날짜</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="driver_version" xml:space="preserve">
+    <value>드라이버 버전</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
-    <value>columnHeader1</value>
+  <data name="environment_variables" xml:space="preserve">
+    <value>환경 변수</value>
   </data>
-  <data name="lst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="exit" xml:space="preserve">
+    <value>SysInfo를 종료하십시오 ...</value>
   </data>
-  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+  <data name="file" xml:space="preserve">
+    <value>파일</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="full_charge" xml:space="preserve">
+    <value>만충 전</value>
   </data>
-  <data name="lst.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="hard_disks" xml:space="preserve">
+    <value>하드 디스크</value>
   </data>
-  <data name="columnHeader1.Text" xml:space="preserve">
-    <value>Name</value>
+  <data name="informations" xml:space="preserve">
+    <value>정보</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="installed" xml:space="preserve">
+    <value>설치됨</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>DataForm</value>
+  <data name="installed_codecs" xml:space="preserve">
+    <value>설치된 코덱</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="letter" xml:space="preserve">
+    <value>편지</value>
+  </data>
+  <data name="license" xml:space="preserve">
+    <value>특허</value>
+  </data>
+  <data name="logical_disks" xml:space="preserve">
+    <value>논리 디스크</value>
+  </data>
+  <data name="manufacturer" xml:space="preserve">
+    <value>제조사</value>
+  </data>
+  <data name="max_available" xml:space="preserve">
+    <value>최대 사용 가능</value>
+  </data>
+  <data name="model" xml:space="preserve">
+    <value>모델</value>
+  </data>
+  <data name="motherboard" xml:space="preserve">
+    <value>마더 보드</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="network_adapters" xml:space="preserve">
+    <value>네트워크 어댑터</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>승인</value>
+  </data>
+  <data name="operating_system" xml:space="preserve">
+    <value>운영 체제</value>
+  </data>
+  <data name="optical_drives" xml:space="preserve">
+    <value>광학 드라이브</value>
+  </data>
+  <data name="press_buttons" xml:space="preserve">
+    <value>더 자세한 정보를 보려면를 누르십시오.</value>
+  </data>
+  <data name="printers" xml:space="preserve">
+    <value>프린터</value>
+  </data>
+  <data name="ram" xml:space="preserve">
+    <value>램</value>
+  </data>
+  <data name="rated_charge" xml:space="preserve">
+    <value>정격 충전</value>
+  </data>
+  <data name="shared_printers" xml:space="preserve">
+    <value>공유 프린터</value>
+  </data>
+  <data name="slots" xml:space="preserve">
+    <value>슬롯</value>
+  </data>
+  <data name="socket" xml:space="preserve">
+    <value>소켓</value>
+  </data>
+  <data name="sound_devices" xml:space="preserve">
+    <value>사운드 장치</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>지위</value>
+  </data>
+  <data name="system_type" xml:space="preserve">
+    <value>시스템 유형</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>유형</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>번역</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>비디오</value>
+  </data>
+  <data name="_help" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="_interface" xml:space="preserve">
+    <value>인터페이스</value>
+  </data>
 </root>

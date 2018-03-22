@@ -117,73 +117,151 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="columnHeader2.Text" xml:space="preserve">
-    <value>Value</value>
+  <data name="about" xml:space="preserve">
+    <value>Despre SysInfo</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="accounts" xml:space="preserve">
+    <value>Conturi</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
-    <value>300</value>
+  <data name="battery" xml:space="preserve">
+    <value>Baterie</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
-    <value>columnHeader2</value>
+  <data name="bios" xml:space="preserve">
+    <value>BIOS</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="capacity" xml:space="preserve">
+    <value>Capacitate</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="computer" xml:space="preserve">
+    <value>Calculator</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lst.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="connection_ports" xml:space="preserve">
+    <value>Porturi de conectare</value>
   </data>
-  <data name="&gt;&gt;lst.Name" xml:space="preserve">
-    <value>lst</value>
+  <data name="cores" xml:space="preserve">
+    <value>nuclee</value>
   </data>
-  <data name="&gt;&gt;lst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cpu" xml:space="preserve">
+    <value>Procesor</value>
   </data>
-  <data name="&gt;&gt;lst.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="directory" xml:space="preserve">
+    <value>Director</value>
   </data>
-  <data name="&gt;&gt;lst.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="disk_partitions" xml:space="preserve">
+    <value>Partiții de discuri</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="driver_date" xml:space="preserve">
+    <value>Data șoferului</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="driver_version" xml:space="preserve">
+    <value>Versiunea driverului</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
-    <value>columnHeader1</value>
+  <data name="environment_variables" xml:space="preserve">
+    <value>variabile de mediu</value>
   </data>
-  <data name="lst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="exit" xml:space="preserve">
+    <value>Ieșiți din SysInfo ...</value>
   </data>
-  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+  <data name="file" xml:space="preserve">
+    <value>Fişier</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="full_charge" xml:space="preserve">
+    <value>Încărcare completă</value>
   </data>
-  <data name="lst.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="hard_disks" xml:space="preserve">
+    <value>Hard Disk-uri</value>
   </data>
-  <data name="columnHeader1.Text" xml:space="preserve">
-    <value>Name</value>
+  <data name="informations" xml:space="preserve">
+    <value>Informații</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="installed" xml:space="preserve">
+    <value>instalat</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>DataForm</value>
+  <data name="installed_codecs" xml:space="preserve">
+    <value>Codecuri instalate</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="letter" xml:space="preserve">
+    <value>Scrisoare</value>
+  </data>
+  <data name="license" xml:space="preserve">
+    <value>Licență</value>
+  </data>
+  <data name="logical_disks" xml:space="preserve">
+    <value>Discuri logice</value>
+  </data>
+  <data name="manufacturer" xml:space="preserve">
+    <value>Producător</value>
+  </data>
+  <data name="max_available" xml:space="preserve">
+    <value>Maxim disponibil</value>
+  </data>
+  <data name="model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="motherboard" xml:space="preserve">
+    <value>Plăci de bază</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="network_adapters" xml:space="preserve">
+    <value>Adaptoare de rețea</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>O.K</value>
+  </data>
+  <data name="operating_system" xml:space="preserve">
+    <value>Sistem de operare</value>
+  </data>
+  <data name="optical_drives" xml:space="preserve">
+    <value>Unități optice</value>
+  </data>
+  <data name="press_buttons" xml:space="preserve">
+    <value>Apăsați pentru informații mai detaliate.</value>
+  </data>
+  <data name="printers" xml:space="preserve">
+    <value>Imprimante</value>
+  </data>
+  <data name="ram" xml:space="preserve">
+    <value>Berbec</value>
+  </data>
+  <data name="rated_charge" xml:space="preserve">
+    <value>Rata tarifului</value>
+  </data>
+  <data name="shared_printers" xml:space="preserve">
+    <value>Imprimante partajate</value>
+  </data>
+  <data name="slots" xml:space="preserve">
+    <value>sloturi</value>
+  </data>
+  <data name="socket" xml:space="preserve">
+    <value>Priză</value>
+  </data>
+  <data name="sound_devices" xml:space="preserve">
+    <value>Dispozitive de sunet</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>stare</value>
+  </data>
+  <data name="system_type" xml:space="preserve">
+    <value>Tip de sistem</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Valoare</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Versiune</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="_help" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="_interface" xml:space="preserve">
+    <value>Interfață</value>
+  </data>
 </root>

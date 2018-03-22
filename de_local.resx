@@ -117,73 +117,151 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="columnHeader2.Text" xml:space="preserve">
-    <value>Value</value>
+  <data name="about" xml:space="preserve">
+    <value>über SysInfo</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="accounts" xml:space="preserve">
+    <value>Konten</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
-    <value>300</value>
+  <data name="battery" xml:space="preserve">
+    <value>Batterie</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
-    <value>columnHeader2</value>
+  <data name="bios" xml:space="preserve">
+    <value>BIOS</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lst.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="capacity" xml:space="preserve">
+    <value>Kapazität</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>574, 484</value>
+  <data name="computer" xml:space="preserve">
+    <value>Computer</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lst.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="connection_ports" xml:space="preserve">
+    <value>Interfaces</value>
   </data>
-  <data name="&gt;&gt;lst.Name" xml:space="preserve">
-    <value>lst</value>
+  <data name="cores" xml:space="preserve">
+    <value>Kernen</value>
   </data>
-  <data name="&gt;&gt;lst.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="cpu" xml:space="preserve">
+    <value>CPU</value>
   </data>
-  <data name="&gt;&gt;lst.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="disk_partitions" xml:space="preserve">
+    <value>Partitionen</value>
   </data>
-  <data name="&gt;&gt;lst.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="driver_date" xml:space="preserve">
+    <value>Datum</value>
   </data>
-  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="driver_version" xml:space="preserve">
+    <value>Driver Version</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="environment_variables" xml:space="preserve">
+    <value>Umgebungsvariablen</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
-    <value>columnHeader1</value>
+  <data name="exit" xml:space="preserve">
+    <value>Ausgang von SysInfo</value>
   </data>
-  <data name="lst.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="file" xml:space="preserve">
+    <value>File</value>
   </data>
-  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
-    <value>200</value>
+  <data name="full_charge" xml:space="preserve">
+    <value>Vollen Ladung</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="hard_disks" xml:space="preserve">
+    <value>Festplatten</value>
   </data>
-  <data name="lst.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="informations" xml:space="preserve">
+    <value>Informations</value>
   </data>
-  <data name="columnHeader1.Text" xml:space="preserve">
+  <data name="installed" xml:space="preserve">
+    <value>Installiert</value>
+  </data>
+  <data name="installed_codecs" xml:space="preserve">
+    <value>Codec</value>
+  </data>
+  <data name="letter" xml:space="preserve">
+    <value>Schreiben</value>
+  </data>
+  <data name="license" xml:space="preserve">
+    <value>Lizenz</value>
+  </data>
+  <data name="logical_disks" xml:space="preserve">
+    <value>Logische Datenträger</value>
+  </data>
+  <data name="manufacturer" xml:space="preserve">
+    <value>Hersteller</value>
+  </data>
+  <data name="max_available" xml:space="preserve">
+    <value>Maximal Verfügbaren</value>
+  </data>
+  <data name="motherboard" xml:space="preserve">
+    <value>Hauptplatine</value>
+  </data>
+  <data name="name" xml:space="preserve">
     <value>Name</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="network_adapters" xml:space="preserve">
+    <value>Netzwerkadapter</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>DataForm</value>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="operating_system" xml:space="preserve">
+    <value>Betriebssystem</value>
+  </data>
+  <data name="optical_drives" xml:space="preserve">
+    <value>Optische Laufwerke</value>
+  </data>
+  <data name="press_buttons" xml:space="preserve">
+    <value>Fordern Sie ausführliche Informationen</value>
+  </data>
+  <data name="printers" xml:space="preserve">
+    <value>Drucker</value>
+  </data>
+  <data name="ram" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="rated_charge" xml:space="preserve">
+    <value>Steuerpflichtige Anklage(Ladung)</value>
+  </data>
+  <data name="shared_printers" xml:space="preserve">
+    <value>Freigegebene Drucker</value>
+  </data>
+  <data name="slots" xml:space="preserve">
+    <value>Schlitze</value>
+  </data>
+  <data name="socket" xml:space="preserve">
+    <value>Buchse</value>
+  </data>
+  <data name="sound_devices" xml:space="preserve">
+    <value>Audiogeräte</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="system_type" xml:space="preserve">
+    <value>Sistema</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="_help" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="_interface" xml:space="preserve">
+    <value>Interface</value>
+  </data>
+  <data name="model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="directory" xml:space="preserve">
+    <value>Ordner</value>
+  </data>
 </root>

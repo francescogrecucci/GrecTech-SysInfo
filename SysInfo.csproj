@@ -13,6 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -38,6 +38,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>sysinfo.ico</ApplicationIcon>
@@ -62,6 +66,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\x86\Release\</OutputPath>
@@ -71,29 +76,31 @@
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
-    <Reference Include="System.Core" />
     <Reference Include="System.Management" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AboutForm.Designer.cs">
-      <DependentUpon>AboutForm.cs</DependentUpon>
+    <Compile Include="cz_local.Designer.cs">
+      <DependentUpon>cz_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="DataForm.cs">
       <SubType>Form</SubType>
@@ -101,11 +108,106 @@
     <Compile Include="DataForm.Designer.cs">
       <DependentUpon>DataForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="de_local.Designer.cs">
+      <DependentUpon>de_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="af_local.Designer.cs">
+      <DependentUpon>af_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="be_local.Designer.cs">
+      <DependentUpon>be_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ca_local.Designer.cs">
+      <DependentUpon>ca_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="da_local.Designer.cs">
+      <DependentUpon>da_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ro_local.Designer.cs">
+      <DependentUpon>ro_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="pl_local.Designer.cs">
+      <DependentUpon>pl_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="hr_local.Designer.cs">
+      <DependentUpon>hr_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="sq_local.Designer.cs">
+      <DependentUpon>sq_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ko_local.Designer.cs">
+      <DependentUpon>ko_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="zh_local.Designer.cs">
+      <DependentUpon>zh_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="pt_local.Designer.cs">
+      <DependentUpon>pt_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="taranto_local.Designer.cs">
+      <DependentUpon>taranto_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ja_local.Designer.cs">
+      <DependentUpon>ja_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ru_local.Designer.cs">
+      <DependentUpon>ru_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="it_local.Designer.cs">
+      <DependentUpon>it_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="es_local.Designer.cs">
+      <DependentUpon>es_local.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="en_local.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>en_local.resx</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fr_local.Designer.cs">
+      <DependentUpon>fr_local.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="License.cs">
       <SubType>Form</SubType>
@@ -115,14 +217,97 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AboutForm.resx">
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="cz_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>cz_local.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="DataForm.resx">
       <DependentUpon>DataForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="de_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>de_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="af_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>af_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="be_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>be_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ca_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ca_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="da_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>da_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ro_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ro_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pl_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>pl_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hr_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>hr_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sq_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>sq_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ko_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ko_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zh_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>zh_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pt_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>pt_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="taranto_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>taranto_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ja_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ja_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ru_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ru_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="it_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>it_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="es_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>es_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="en_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>en_local.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fr_local.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>fr_local.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="License.resx">
       <DependentUpon>License.cs</DependentUpon>
@@ -131,6 +316,9 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="CHANGELOG.md" />
     <None Include="Properties\Settings.settings">
@@ -153,7 +341,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\memory-rom.png" />
-    <Content Include="applications-system-3.ico" />
     <None Include="Resources\desktop-classic.png" />
     <None Include="Resources\chip.png" />
     <None Include="Resources\memory_f.png" />
@@ -168,10 +355,13 @@
     <None Include="Resources\swap-vertical.png" />
     <None Include="Resources\chart-arc.png" />
     <None Include="Resources\cards-variant.png" />
+    <None Include="Resources\shared-printer.png" />
+    <None Include="Resources\codec.png" />
     <Content Include="Resources\sysinfo.ico" />
     <None Include="Resources\television-classic.png" />
     <None Include="Resources\windows.png" />
     <None Include="Resources\table.png" />
+    <Content Include="old_sysinfo.ico" />
     <Content Include="sysinfo.ico" />
     <Content Include="system-settings.ico" />
   </ItemGroup>
