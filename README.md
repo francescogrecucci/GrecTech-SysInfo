@@ -5,6 +5,6 @@ Once you open Sysinfo, it scans your machine and compiles different system infor
 
 In closing, Sysinfo is a truly easy to use resource for those that like to keep informed about all aspects of their machine. 
 
-- MajorGeeks.com
+by MajorGeeks.com
 
 <img src = "sys-info.png">
