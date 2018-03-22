@@ -6,14 +6,20 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Management;
+using System.Resources;
+using System.Reflection;
+using System.Globalization;
 
 namespace SysInfo
 {
     public partial class DataForm : Form
 
-        
     {
         string data_value;
+
+
+        /*MULTILANGUAGE*/
+        private static ResourceManager rm = new ResourceManager("SysInfo." + CultureInfo.CurrentUICulture.TwoLetterISOLanguageName + "_local", Assembly.GetExecutingAssembly());
 
         public DataForm()
         {
@@ -33,6 +39,10 @@ namespace SysInfo
 
         private void DataForm_Load(object sender, EventArgs e)
         {
+            columnHeader1.Text = rm.GetString("name");
+            columnHeader2.Text = rm.GetString("value");
+
+
             ManagementObjectSearcher data = new ManagementObjectSearcher("select * from " + data_value);
             try
             {

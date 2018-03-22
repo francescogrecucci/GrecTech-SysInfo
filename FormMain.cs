@@ -7,23 +7,127 @@ using System.Text;
 using System.Windows.Forms;
 using System.Management;
 using Microsoft.VisualBasic;
+using System.Resources;
+using System.Reflection;
+using System.Globalization;
 
 namespace SysInfo
+
+
 {
     public partial class FormMain : Form
     {
         public FormMain()
         {
             InitializeComponent();
+
+        }
+
+        /* LANGUAGE FROM MS WINDOWS */
+        private static ResourceManager rm = new ResourceManager("SysInfo." + CultureInfo.CurrentUICulture.TwoLetterISOLanguageName + "_local", Assembly.GetExecutingAssembly());
+        // FOR TEST        private static ResourceManager rm = new ResourceManager("SysInfo.sq_local", Assembly.GetExecutingAssembly());
+
+
+        private void Label_Loading()
+        {
+            /* LABEL VALUES FROM LANGUAGE STRINGS */
+
+            try
+            {
+                button1.Text = rm.GetString("computer");
+                label2.Text = rm.GetString("system_type");
+                label3.Text = rm.GetString("manufacturer");
+                label4.Text = rm.GetString("model");
+
+                button2.Text = rm.GetString("cpu");
+                label5.Text = rm.GetString("cpu");
+                label1.Text = rm.GetString("cores");
+                label6.Text = rm.GetString("socket");
+
+                button3.Text = rm.GetString("ram");
+                label33.Text = rm.GetString("installed");
+                label8.Text = rm.GetString("max_available");
+                label7.Text = rm.GetString("slots");
+
+                button7.Text = rm.GetString("bios");
+                label11.Text = rm.GetString("manufacturer");
+                label10.Text = rm.GetString("version");
+
+                button13.Text = rm.GetString("optical_drives");
+                label19.Text = rm.GetString("name");
+                label20.Text = rm.GetString("letter");
+                label25.Text = rm.GetString("type");
+
+                button14.Text = rm.GetString("hard_disks");
+                label31.Text = rm.GetString("name");
+                label30.Text = rm.GetString("capacity");
+                label29.Text = rm.GetString("_interface");
+
+                button6.Text = rm.GetString("sound_devices");
+                label27.Text = rm.GetString("name");
+                label26.Text = rm.GetString("manufacturer");
+
+                button5.Text = rm.GetString("network_adapters");
+                label32.Text = rm.GetString("name");
+                label28.Text = rm.GetString("manufacturer");
+
+                button4.Text = rm.GetString("video");
+                label9.Text = rm.GetString("name");
+                label12.Text = rm.GetString("driver_version");
+                label13.Text = rm.GetString("driver_date");
+
+                button12.Text = rm.GetString("motherboard");
+                label16.Text = rm.GetString("manufacturer");
+                label17.Text = rm.GetString("model");
+
+                button8.Text = rm.GetString("operating_system");
+                label15.Text = rm.GetString("directory");
+                label14.Text = rm.GetString("version");
+
+                button9.Text = rm.GetString("accounts");
+                button10.Text = rm.GetString("disk_partitions");
+                button11.Text = rm.GetString("logical_disks");
+                button17.Text = rm.GetString("environment_variables");
+                button18.Text = rm.GetString("printers");
+                button20.Text = rm.GetString("shared_printers");
+
+                button15.Text = rm.GetString("battery");
+                label24.Text = rm.GetString("status");
+                label21.Text = rm.GetString("rated_charge");
+                label22.Text = rm.GetString("full_charge");
+
+                fileToolStripMenuItem.Text = rm.GetString("file");
+                exitFromSysinfoToolStripMenuItem.Text = rm.GetString("exit");
+                toolStripMenuItem1.Text = rm.GetString("_help");
+                licenseToolStripMenuItem.Text = rm.GetString("license");
+                informationToolStripMenuItem.Text = rm.GetString("about");
+            }
+            catch(MissingManifestResourceException)
+            {
+
+            }
+
         }
 
 
 
         private void Form1_Load(object sender, EventArgs e)
-        {
 
-            int ok = 0;                                                         //Parameter for checking the avaiability of a device.
-            string notAvb = "Press the button to see more detailed infos.";    //Error String
+        {
+            int ok = 0;                                                             //Parameter for checking the availability of a device.
+            Label_Loading();
+
+            string notAvb;
+            try
+            {
+                notAvb = rm.GetString("press_buttons");                      //Error String
+                toolStripStatusLabel1.Text = notAvb;
+            }
+            catch(MissingManifestResourceException)
+            {
+                notAvb = "Press the buttons for detailed informations";
+                toolStripStatusLabel1.Text = notAvb;
+            }
 
             /* COMPUTER SYSTEM INFORMATIONS*/
 
@@ -231,9 +335,9 @@ namespace SysInfo
                 {
                     foreach (PropertyData PC in data.Properties)
                     {
+                        batteryStatus.Text = data["Status"].ToString();
                         batteryEstimated.Text = data["EstimatedChargeRemaining"].ToString();
                         batteryFullCharge.Text = data["FullChargeCapacity"].ToString();
-                        batteryStatus.Text = data["Status"].ToString();
                         ok++;
                     }
 
@@ -252,13 +356,9 @@ namespace SysInfo
             }
             catch
             {
-                button15.Enabled = true;
-                batteryEstimated.Visible = false;
-                batteryFullCharge.Visible = false;
-                batteryStatus.Visible = false;
-                label24.Enabled = false;
-                label21.Enabled = false;
-                label22.Enabled = false;
+                batteryStatus.Text = notAvb;
+                batteryEstimated.Text = notAvb;
+                batteryFullCharge.Text = notAvb;
             }
 
 
@@ -389,7 +489,7 @@ namespace SysInfo
                 networkManu.Text = notAvb;
             }
 
-            this.Text = "System Information on " + computerSystem.Text;
+            this.Text = "System Information: " + computerSystem.Text;
         }
 
 
@@ -407,7 +507,7 @@ namespace SysInfo
         private void button1_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button1.Text + " Information");
+            datafrm.setFormName(button1.Text);
             datafrm.setDataClass("Win32_ComputerSystem");
             datafrm.Show();
         }
@@ -415,7 +515,7 @@ namespace SysInfo
         private void button2_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button2.Text + " Information");
+            datafrm.setFormName(button2.Text);
             datafrm.setDataClass("Win32_Processor");
             datafrm.Show();
         }
@@ -423,7 +523,7 @@ namespace SysInfo
         private void button3_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button3.Text + " Information");
+            datafrm.setFormName(button3.Text);
             datafrm.setDataClass("Win32_PhysicalMemory");
             datafrm.Show();
         }
@@ -431,7 +531,7 @@ namespace SysInfo
         private void button7_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button7.Text + " Information");
+            datafrm.setFormName(button7.Text);
             datafrm.setDataClass("Win32_BIOS");
             datafrm.Show();
         }
@@ -439,7 +539,7 @@ namespace SysInfo
         private void button13_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button13.Text + " Information");
+            datafrm.setFormName(button13.Text);
             datafrm.setDataClass("Win32_CDROMDrive");
             datafrm.Show();
         }
@@ -447,7 +547,7 @@ namespace SysInfo
         private void button14_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button14.Text + " Information");
+            datafrm.setFormName(button14.Text);
             datafrm.setDataClass("Win32_DiskDrive");
             datafrm.Show();
         }
@@ -455,7 +555,7 @@ namespace SysInfo
         private void button10_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button10.Text + " Information");
+            datafrm.setFormName(button10.Text);
             datafrm.setDataClass("Win32_DiskPartition");
             datafrm.Show();
         }
@@ -463,7 +563,7 @@ namespace SysInfo
         private void button11_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button11.Text + " Information");
+            datafrm.setFormName(button11.Text);
             datafrm.setDataClass("Win32_LogicalDisk");
             datafrm.Show();
         }
@@ -471,7 +571,7 @@ namespace SysInfo
         private void button6_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button6.Text + " Information");
+            datafrm.setFormName(button6.Text);
             datafrm.setDataClass("Win32_SoundDevice");
             datafrm.Show();
         }
@@ -479,7 +579,7 @@ namespace SysInfo
         private void button5_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button5.Text + " Information");
+            datafrm.setFormName(button5.Text);
             datafrm.setDataClass("Win32_NetworkAdapter");
             datafrm.Show();
         }
@@ -487,7 +587,7 @@ namespace SysInfo
         private void button4_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button4.Text + " Information");
+            datafrm.setFormName(button4.Text);
             datafrm.setDataClass("Win32_VideoController");
             datafrm.Show();
         }
@@ -495,7 +595,7 @@ namespace SysInfo
         private void button12_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button12.Text + " Information");
+            datafrm.setFormName(button12.Text);
             datafrm.setDataClass("Win32_BaseBoard");
             datafrm.Show();
         }
@@ -503,7 +603,7 @@ namespace SysInfo
         private void button9_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button9.Text + " Information");
+            datafrm.setFormName(button9.Text);
             datafrm.setDataClass("Win32_Account");
             datafrm.Show();
         }
@@ -511,7 +611,7 @@ namespace SysInfo
         private void button8_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button8.Text + " Information");
+            datafrm.setFormName(button8.Text);
             datafrm.setDataClass("Win32_OperatingSystem");
             datafrm.Show();
         }
@@ -519,7 +619,7 @@ namespace SysInfo
         private void button15_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button15.Text + " Information");
+            datafrm.setFormName(button15.Text);
             datafrm.setDataClass("Win32_Battery");
             datafrm.Show();
         }
@@ -527,7 +627,7 @@ namespace SysInfo
         private void button18_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button18.Text + " Information");
+            datafrm.setFormName(button18.Text);
             datafrm.setDataClass("Win32_Printer");
             datafrm.Show();
         }
@@ -535,18 +635,11 @@ namespace SysInfo
         private void button17_Click(object sender, EventArgs e)
         {
             DataForm datafrm = new DataForm();
-            datafrm.setFormName(button17.Text + " Information");
+            datafrm.setFormName(button17.Text);
             datafrm.setDataClass("Win32_Environment");
             datafrm.Show();
         }
 
-        private void button16_Click(object sender, EventArgs e)
-        {
-            DataForm datafrm = new DataForm();
-            datafrm.setFormName(button16.Text + " Information");
-            datafrm.setDataClass("Win32_PortConnector");
-            datafrm.Show();
-        }
 
         private void exitFromSysinfoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -558,5 +651,14 @@ namespace SysInfo
             AboutForm about = new AboutForm();
             about.Show();
         }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            DataForm datafrm = new DataForm();
+            datafrm.setFormName(button20.Text);
+            datafrm.setDataClass("Win32_PrinterShare");
+            datafrm.Show();
+        }
+
     }
 }
