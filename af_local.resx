@@ -264,4 +264,10 @@
   <data name="_interface" xml:space="preserve">
     <value>koppelvlak</value>
   </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Afrikaans</value>
+  </data>
+  <data name="print_report" xml:space="preserve">
+    <value>Druk Verslag</value>
+  </data>
 </root>

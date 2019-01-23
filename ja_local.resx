@@ -264,4 +264,10 @@
   <data name="directory" xml:space="preserve">
     <value>ディレクトリ</value>
   </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="print_report" xml:space="preserve">
+    <value>レポートを印刷</value>
+  </data>
 </root>

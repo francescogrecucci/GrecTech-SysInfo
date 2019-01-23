@@ -19,7 +19,7 @@ namespace SysInfo {
     // tramite uno strumento quale ResGen o Visual Studio.
     // Per aggiungere o rimuovere un membro, modificare il file con estensione ResX ed eseguire nuovamente ResGen
     // con l'opzione /str oppure ricompilare il progetto VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class fr_local {
@@ -268,6 +268,15 @@ namespace SysInfo {
         }
         
         /// <summary>
+        ///   Cerca una stringa localizzata simile a French.
+        /// </summary>
+        internal static string LANGUAGE {
+            get {
+                return ResourceManager.GetString("LANGUAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Cerca una stringa localizzata simile a Lettre.
         /// </summary>
         internal static string letter {
@@ -381,6 +390,15 @@ namespace SysInfo {
         internal static string press_buttons {
             get {
                 return ResourceManager.GetString("press_buttons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una stringa localizzata simile a Imprimer le rapport.
+        /// </summary>
+        internal static string print_report {
+            get {
+                return ResourceManager.GetString("print_report", resourceCulture);
             }
         }
         

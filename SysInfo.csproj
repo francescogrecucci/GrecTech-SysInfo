@@ -357,13 +357,12 @@
     <None Include="Resources\cards-variant.png" />
     <None Include="Resources\shared-printer.png" />
     <None Include="Resources\codec.png" />
+    <None Include="Resources\HDD_32px.png" />
     <Content Include="Resources\sysinfo.ico" />
     <None Include="Resources\television-classic.png" />
     <None Include="Resources\windows.png" />
     <None Include="Resources\table.png" />
-    <Content Include="old_sysinfo.ico" />
     <Content Include="sysinfo.ico" />
-    <Content Include="system-settings.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

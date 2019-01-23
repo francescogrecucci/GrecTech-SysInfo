@@ -264,4 +264,10 @@
   <data name="directory" xml:space="preserve">
     <value>Directory</value>
   </data>
+  <data name="print_report" xml:space="preserve">
+    <value>Print Report</value>
+  </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>English</value>
+  </data>
 </root>

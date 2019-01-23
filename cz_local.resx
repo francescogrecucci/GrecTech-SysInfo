@@ -271,4 +271,10 @@
   <data name="_interface" xml:space="preserve">
     <value>Rozhraní</value>
   </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Czech</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Tisková Zpráva</value>
+  </data>
 </root>

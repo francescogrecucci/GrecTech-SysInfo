@@ -264,4 +264,10 @@
   <data name="directory" xml:space="preserve">
     <value>Répertoire</value>
   </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="print_report" xml:space="preserve">
+    <value>Imprimer le rapport</value>
+  </data>
 </root>
