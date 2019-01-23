@@ -7,4 +7,4 @@ In closing, Sysinfo is a truly easy to use resource for those that like to keep 
 
 by MajorGeeks.com
 
-<img src = "sys-info.png">
+<img src = "1.jpg">
