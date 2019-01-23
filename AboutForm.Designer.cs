@@ -68,7 +68,7 @@
             this.labelProductName.Name = "labelProductName";
             this.labelProductName.Size = new System.Drawing.Size(158, 15);
             this.labelProductName.TabIndex = 2;
-            this.labelProductName.Text = "System Information 3.0.0.0";
+            this.labelProductName.Text = "System Information 4.0.0.0";
             // 
             // label1
             // 
@@ -78,7 +78,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(200, 15);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Copyright 2018 - Francesco Grecucci";
+            this.label1.Text = "Copyright 2019 - Francesco Grecucci";
             // 
             // label2
             // 
@@ -104,11 +104,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(241, 128);
+            this.label4.Location = new System.Drawing.Point(303, 128);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(183, 15);
+            this.label4.Size = new System.Drawing.Size(121, 15);
             this.label4.TabIndex = 6;
-            this.label4.Text = "francesco.grecucci@grectech.net";
+            this.label4.Text = "grectech@gmail.com";
             // 
             // label5
             // 

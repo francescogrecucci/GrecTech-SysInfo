@@ -271,4 +271,10 @@
   <data name="_interface" xml:space="preserve">
     <value>Interfície</value>
   </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Catalan</value>
+  </data>
+  <data name="print_report" xml:space="preserve">
+    <value>Imprimir Informe</value>
+  </data>
 </root>

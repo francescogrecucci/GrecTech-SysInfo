@@ -49,13 +49,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.baseBoardManu = new System.Windows.Forms.Label();
             this.baseBoardProd = new System.Windows.Forms.Label();
-            this.button17 = new System.Windows.Forms.Button();
             this.baseBoardSerial = new System.Windows.Forms.Label();
-            this.button15 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
-            this.button14 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.biosVersion = new System.Windows.Forms.Label();
             this.batteryStatus = new System.Windows.Forms.Label();
@@ -64,20 +60,14 @@
             this.label11 = new System.Windows.Forms.Label();
             this.batteryFullCharge = new System.Windows.Forms.Label();
             this.biosManufacturer = new System.Windows.Forms.Label();
-            this.button18 = new System.Windows.Forms.Button();
             this.processorSocket = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
             this.cdName = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
             this.cdLetter = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
             this.cdType = new System.Windows.Forms.Label();
             this.processorCores = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
@@ -97,21 +87,15 @@
             this.label26 = new System.Windows.Forms.Label();
             this.processor = new System.Windows.Forms.Label();
             this.soundName = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
             this.soundManu = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.label32 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.networkName = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.networkManu = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.computerType = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
             this.label33 = new System.Windows.Forms.Label();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.printReportButton = new System.Windows.Forms.ToolStripMenuItem();
             this.exitFromSysinfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.licenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -120,9 +104,26 @@
             this.memoryInstalled = new System.Windows.Forms.Label();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.button20 = new System.Windows.Forms.Button();
             this.computerSystem = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -368,26 +369,6 @@
             this.baseBoardProd.TabIndex = 231;
             this.baseBoardProd.Text = "Win32_BaseBoard[Product]";
             // 
-            // button17
-            // 
-            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button17.AutoEllipsis = true;
-            this.button17.BackColor = System.Drawing.Color.SteelBlue;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button17.Location = new System.Drawing.Point(547, 604);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(129, 58);
-            this.button17.TabIndex = 210;
-            this.button17.Text = "Environ. Variables";
-            this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
-            // 
             // baseBoardSerial
             // 
             this.baseBoardSerial.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -400,25 +381,6 @@
             this.baseBoardSerial.Size = new System.Drawing.Size(180, 15);
             this.baseBoardSerial.TabIndex = 232;
             this.baseBoardSerial.Text = "Win32_BaseBoard[SerialNumber]";
-            // 
-            // button15
-            // 
-            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button15.BackColor = System.Drawing.Color.SteelBlue;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button15.Location = new System.Drawing.Point(547, 540);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(129, 58);
-            this.button15.TabIndex = 209;
-            this.button15.Text = "Battery";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // label24
             // 
@@ -433,24 +395,6 @@
             this.label24.TabIndex = 233;
             this.label24.Text = "Status:";
             // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.SteelBlue;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Image = global::SysInfo.Properties.Resources.harddisk;
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button14.Location = new System.Drawing.Point(14, 412);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(129, 60);
-            this.button14.TabIndex = 208;
-            this.button14.Text = "Hard Disks";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button14.UseVisualStyleBackColor = false;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
             // label23
             // 
             this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -462,24 +406,6 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(0, 15);
             this.label23.TabIndex = 234;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.SteelBlue;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button13.Location = new System.Drawing.Point(14, 346);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(129, 60);
-            this.button13.TabIndex = 207;
-            this.button13.Text = "Optical Drives";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // label22
             // 
@@ -577,25 +503,6 @@
             this.biosManufacturer.TabIndex = 203;
             this.biosManufacturer.Text = "Win32_BIOS[Manufacturer]";
             // 
-            // button18
-            // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.SteelBlue;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Image = global::SysInfo.Properties.Resources.printer;
-            this.button18.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button18.Location = new System.Drawing.Point(547, 413);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(129, 58);
-            this.button18.TabIndex = 239;
-            this.button18.Text = "Printers";
-            this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
             // processorSocket
             // 
             this.processorSocket.AutoSize = true;
@@ -642,25 +549,6 @@
             this.label19.TabIndex = 241;
             this.label19.Text = "Name:";
             // 
-            // button12
-            // 
-            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button12.BackColor = System.Drawing.Color.SteelBlue;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button12.Location = new System.Drawing.Point(547, 92);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(129, 60);
-            this.button12.TabIndex = 200;
-            this.button12.Text = "Motherboard";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -671,25 +559,6 @@
             this.label20.Size = new System.Drawing.Size(45, 15);
             this.label20.TabIndex = 242;
             this.label20.Text = "Letter:";
-            // 
-            // button10
-            // 
-            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button10.BackColor = System.Drawing.Color.SteelBlue;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button10.Location = new System.Drawing.Point(547, 284);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(129, 60);
-            this.button10.TabIndex = 198;
-            this.button10.Text = "Disk Partitions";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // label25
             // 
@@ -702,25 +571,6 @@
             this.label25.TabIndex = 243;
             this.label25.Text = "Type:";
             // 
-            // button9
-            // 
-            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button9.BackColor = System.Drawing.Color.SteelBlue;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button9.Location = new System.Drawing.Point(547, 220);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(129, 60);
-            this.button9.TabIndex = 197;
-            this.button9.Text = "Accounts";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
             // cdName
             // 
             this.cdName.AutoSize = true;
@@ -732,25 +582,6 @@
             this.cdName.TabIndex = 244;
             this.cdName.Text = "Win32_CDROMDrive[Name]";
             // 
-            // button8
-            // 
-            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button8.BackColor = System.Drawing.Color.SteelBlue;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Image = global::SysInfo.Properties.Resources.windows;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button8.Location = new System.Drawing.Point(547, 156);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(129, 60);
-            this.button8.TabIndex = 196;
-            this.button8.Text = "Operating System";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
             // cdLetter
             // 
             this.cdLetter.AutoSize = true;
@@ -761,24 +592,6 @@
             this.cdLetter.Size = new System.Drawing.Size(150, 15);
             this.cdLetter.TabIndex = 245;
             this.cdLetter.Text = "Win32_CDROMDrive[Drive]";
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.SteelBlue;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Image = global::SysInfo.Properties.Resources.chip1;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button7.Location = new System.Drawing.Point(14, 282);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(129, 60);
-            this.button7.TabIndex = 195;
-            this.button7.Text = "BIOS";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // cdType
             // 
@@ -992,24 +805,6 @@
             this.soundName.TabIndex = 255;
             this.soundName.Text = "Win32_SoundDevice[Name]";
             // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.SteelBlue;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button6.Location = new System.Drawing.Point(14, 474);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(129, 60);
-            this.button6.TabIndex = 185;
-            this.button6.Text = "Sound Devices";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
             // soundManu
             // 
             this.soundManu.AutoSize = true;
@@ -1020,24 +815,6 @@
             this.soundManu.Size = new System.Drawing.Size(194, 15);
             this.soundManu.TabIndex = 256;
             this.soundManu.Text = "Win32_SoundDevice[Manufacturer]";
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.SteelBlue;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button5.Location = new System.Drawing.Point(14, 538);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(129, 60);
-            this.button5.TabIndex = 184;
-            this.button5.Text = "Network Adapters";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label32
             // 
@@ -1050,24 +827,6 @@
             this.label32.TabIndex = 257;
             this.label32.Text = "Name:";
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.SteelBlue;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button4.Location = new System.Drawing.Point(14, 602);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 60);
-            this.button4.TabIndex = 183;
-            this.button4.Text = "Video";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // label28
             // 
             this.label28.AutoSize = true;
@@ -1078,24 +837,6 @@
             this.label28.Size = new System.Drawing.Size(87, 15);
             this.label28.TabIndex = 258;
             this.label28.Text = "Manufacturer:";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.SteelBlue;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(14, 218);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 60);
-            this.button3.TabIndex = 182;
-            this.button3.Text = "RAM";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // networkName
             // 
@@ -1108,24 +849,6 @@
             this.networkName.TabIndex = 259;
             this.networkName.Text = "Win32_NetworkAdapter[Description]";
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.SteelBlue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(14, 154);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 60);
-            this.button2.TabIndex = 181;
-            this.button2.Text = "CPU";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // networkManu
             // 
             this.networkManu.AutoSize = true;
@@ -1136,24 +859,6 @@
             this.networkManu.Size = new System.Drawing.Size(212, 15);
             this.networkManu.TabIndex = 260;
             this.networkManu.Text = "Win32_NetworkAdapter[Manufacturer]";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(14, 90);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 60);
-            this.button1.TabIndex = 180;
-            this.button1.Text = "Computer";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // computerType
             // 
@@ -1167,25 +872,6 @@
             this.computerType.Size = new System.Drawing.Size(206, 15);
             this.computerType.TabIndex = 261;
             this.computerType.Text = "Win32_ComputerSystem[SystemTipe]";
-            // 
-            // button11
-            // 
-            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button11.BackColor = System.Drawing.Color.SteelBlue;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button11.Location = new System.Drawing.Point(547, 348);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(129, 58);
-            this.button11.TabIndex = 199;
-            this.button11.Text = "Logical Disks";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // label33
             // 
@@ -1201,24 +887,34 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.printReportButton,
             this.exitFromSysinfoToolStripMenuItem});
             this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // printReportButton
+            // 
+            this.printReportButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(74)))), ((int)(((byte)(72)))));
+            this.printReportButton.ForeColor = System.Drawing.Color.White;
+            this.printReportButton.Name = "printReportButton";
+            this.printReportButton.Size = new System.Drawing.Size(180, 22);
+            this.printReportButton.Text = "Print Report";
+            this.printReportButton.Click += new System.EventHandler(this.printReportButton_Click);
+            // 
             // exitFromSysinfoToolStripMenuItem
             // 
-            this.exitFromSysinfoToolStripMenuItem.BackColor = System.Drawing.Color.DimGray;
+            this.exitFromSysinfoToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(74)))), ((int)(((byte)(72)))));
             this.exitFromSysinfoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.exitFromSysinfoToolStripMenuItem.Name = "exitFromSysinfoToolStripMenuItem";
-            this.exitFromSysinfoToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
+            this.exitFromSysinfoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitFromSysinfoToolStripMenuItem.Text = "Exit";
             this.exitFromSysinfoToolStripMenuItem.Click += new System.EventHandler(this.exitFromSysinfoToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.BackColor = System.Drawing.Color.DimGray;
+            this.toolStripMenuItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(74)))), ((int)(((byte)(72)))));
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.licenseToolStripMenuItem,
             this.informationToolStripMenuItem});
@@ -1229,7 +925,7 @@
             // 
             // licenseToolStripMenuItem
             // 
-            this.licenseToolStripMenuItem.BackColor = System.Drawing.Color.DimGray;
+            this.licenseToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(74)))), ((int)(((byte)(72)))));
             this.licenseToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.licenseToolStripMenuItem.Name = "licenseToolStripMenuItem";
             this.licenseToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
@@ -1238,7 +934,7 @@
             // 
             // informationToolStripMenuItem
             // 
-            this.informationToolStripMenuItem.BackColor = System.Drawing.Color.DimGray;
+            this.informationToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(74)))), ((int)(((byte)(72)))));
             this.informationToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.informationToolStripMenuItem.Name = "informationToolStripMenuItem";
             this.informationToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
@@ -1247,7 +943,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.DimGray;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(74)))), ((int)(((byte)(72)))));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.toolStripMenuItem1});
@@ -1280,33 +976,14 @@
             // 
             this.statusStrip1.AllowMerge = false;
             this.statusStrip1.AutoSize = false;
-            this.statusStrip1.BackColor = System.Drawing.Color.DimGray;
+            this.statusStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(74)))), ((int)(((byte)(72)))));
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 679);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 671);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1014, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
-            // 
-            // button20
-            // 
-            this.button20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button20.BackColor = System.Drawing.Color.SteelBlue;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Segoe UI", 7.4F);
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
-            this.button20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button20.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button20.Location = new System.Drawing.Point(547, 477);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(129, 58);
-            this.button20.TabIndex = 264;
-            this.button20.Text = "Shared Printers";
-            this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button20.UseVisualStyleBackColor = false;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // computerSystem
             // 
@@ -1323,13 +1000,347 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DimGray;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(74)))), ((int)(((byte)(72)))));
             this.panel1.Controls.Add(this.computerSystem);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1014, 58);
             this.panel1.TabIndex = 87;
+            // 
+            // button20
+            // 
+            this.button20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Segoe UI", 7.4F);
+            this.button20.ForeColor = System.Drawing.Color.White;
+            this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
+            this.button20.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button20.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button20.Location = new System.Drawing.Point(547, 477);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(129, 58);
+            this.button20.TabIndex = 264;
+            this.button20.Text = "Shared Printers";
+            this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // button11
+            // 
+            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button11.Location = new System.Drawing.Point(547, 348);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(129, 58);
+            this.button11.TabIndex = 199;
+            this.button11.Text = "Logical Disks";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button1.Location = new System.Drawing.Point(14, 90);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 60);
+            this.button1.TabIndex = 180;
+            this.button1.Text = "Computer";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button2.Location = new System.Drawing.Point(14, 154);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(129, 60);
+            this.button2.TabIndex = 181;
+            this.button2.Text = "CPU";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button3.Location = new System.Drawing.Point(14, 218);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(129, 60);
+            this.button3.TabIndex = 182;
+            this.button3.Text = "RAM";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button4.Location = new System.Drawing.Point(14, 602);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(129, 60);
+            this.button4.TabIndex = 183;
+            this.button4.Text = "Video";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button5.Location = new System.Drawing.Point(14, 538);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(129, 60);
+            this.button5.TabIndex = 184;
+            this.button5.Text = "Network Adapters";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button6.Location = new System.Drawing.Point(14, 474);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(129, 60);
+            this.button6.TabIndex = 185;
+            this.button6.Text = "Sound Devices";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Image = global::SysInfo.Properties.Resources.chip1;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button7.Location = new System.Drawing.Point(14, 282);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(129, 60);
+            this.button7.TabIndex = 195;
+            this.button7.Text = "BIOS";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Image = global::SysInfo.Properties.Resources.windows;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button8.Location = new System.Drawing.Point(547, 156);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(129, 60);
+            this.button8.TabIndex = 196;
+            this.button8.Text = "Operating System";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button9.Location = new System.Drawing.Point(547, 220);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(129, 60);
+            this.button9.TabIndex = 197;
+            this.button9.Text = "Accounts";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button10.Location = new System.Drawing.Point(547, 284);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(129, 60);
+            this.button10.TabIndex = 198;
+            this.button10.Text = "Disk Partitions";
+            this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button12
+            // 
+            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button12.Location = new System.Drawing.Point(547, 92);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(129, 60);
+            this.button12.TabIndex = 200;
+            this.button12.Text = "Motherboard";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button18
+            // 
+            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Image = global::SysInfo.Properties.Resources.printer;
+            this.button18.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button18.Location = new System.Drawing.Point(547, 413);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(129, 58);
+            this.button18.TabIndex = 239;
+            this.button18.Text = "Printers";
+            this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
+            this.button13.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button13.Location = new System.Drawing.Point(14, 346);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(129, 60);
+            this.button13.TabIndex = 207;
+            this.button13.Text = "Optical Drives";
+            this.button13.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button14.ForeColor = System.Drawing.Color.White;
+            this.button14.Image = global::SysInfo.Properties.Resources.harddisk;
+            this.button14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button14.Location = new System.Drawing.Point(14, 412);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(129, 60);
+            this.button14.TabIndex = 208;
+            this.button14.Text = "Hard Disks";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
+            this.button15.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button15.Location = new System.Drawing.Point(547, 540);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(129, 58);
+            this.button15.TabIndex = 209;
+            this.button15.Text = "Battery";
+            this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button17
+            // 
+            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button17.AutoEllipsis = true;
+            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button17.ForeColor = System.Drawing.Color.White;
+            this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
+            this.button17.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button17.Location = new System.Drawing.Point(547, 604);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(129, 58);
+            this.button17.TabIndex = 210;
+            this.button17.Text = "Environ. Variables";
+            this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // FormMain
             // 
@@ -1338,7 +1349,7 @@
             this.AutoScroll = true;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1014, 701);
+            this.ClientSize = new System.Drawing.Size(1014, 693);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.statusStrip1);
@@ -1427,8 +1438,10 @@
             this.Controls.Add(this.videoVersion);
             this.Controls.Add(this.videoDate);
             this.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1539,6 +1552,7 @@
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Label computerSystem;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStripMenuItem printReportButton;
     }
 }
 

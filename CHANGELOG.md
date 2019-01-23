@@ -69,3 +69,10 @@ All notable changes to this project will be documented in this file.
 
 ### Removed
 - Connection Ports
+
+## 4.0.0 - 2019/01/23
+### Fourth Release (Milestone)
+
+###Added
+
+- Report

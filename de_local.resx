@@ -264,4 +264,10 @@
   <data name="directory" xml:space="preserve">
     <value>Ordner</value>
   </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="print_report" xml:space="preserve">
+    <value>Bericht drucken</value>
+  </data>
 </root>

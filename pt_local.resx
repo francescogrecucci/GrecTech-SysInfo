@@ -264,4 +264,10 @@
   <data name="directory" xml:space="preserve">
     <value>Pasta</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="print_report" xml:space="preserve">
+    <value>Imprimir relatório</value>
+  </data>
 </root>

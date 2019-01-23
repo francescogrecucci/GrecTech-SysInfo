@@ -19,7 +19,7 @@ namespace SysInfo {
     // tramite uno strumento quale ResGen o Visual Studio.
     // Per aggiungere o rimuovere un membro, modificare il file con estensione ResX ed eseguire nuovamente ResGen
     // con l'opzione /str oppure ricompilare il progetto VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class sq_local {
@@ -268,6 +268,15 @@ namespace SysInfo {
         }
         
         /// <summary>
+        ///   Cerca una stringa localizzata simile a Albanian.
+        /// </summary>
+        internal static string LANGUAGE {
+            get {
+                return ResourceManager.GetString("LANGUAGE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Cerca una stringa localizzata simile a letër.
         /// </summary>
         internal static string letter {
@@ -453,6 +462,15 @@ namespace SysInfo {
         internal static string status {
             get {
                 return ResourceManager.GetString("status", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una stringa localizzata simile a Raporti i Shtypit.
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
             }
         }
         

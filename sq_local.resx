@@ -264,4 +264,10 @@
   <data name="_interface" xml:space="preserve">
     <value>Interface</value>
   </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Albanian</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Raporti i Shtypit</value>
+  </data>
 </root>

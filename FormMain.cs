@@ -27,7 +27,6 @@ namespace SysInfo
         private static ResourceManager rm = new ResourceManager("SysInfo." + CultureInfo.CurrentUICulture.TwoLetterISOLanguageName + "_local", Assembly.GetExecutingAssembly());
         // FOR TEST        private static ResourceManager rm = new ResourceManager("SysInfo.sq_local", Assembly.GetExecutingAssembly());
 
-
         private void Label_Loading()
         {
             /* LABEL VALUES FROM LANGUAGE STRINGS */
@@ -101,6 +100,8 @@ namespace SysInfo
                 toolStripMenuItem1.Text = rm.GetString("_help");
                 licenseToolStripMenuItem.Text = rm.GetString("license");
                 informationToolStripMenuItem.Text = rm.GetString("about");
+
+                printReportButton.Text = rm.GetString("print_report");
             }
             catch(MissingManifestResourceException)
             {
@@ -109,12 +110,49 @@ namespace SysInfo
 
         }
 
+        private void Label_Clean()
+        {
+            computerSystem.Text = "";
+            computerType.Text = "";
+            computerManufacturer.Text = "";
+            computerModel.Text = "";
+            processor.Text = "";
+            processorCores.Text = "";
+            processorSocket.Text = "";
+            memoryInstalled.Text = "";
+            maxCapacity.Text = "";
+            memoryDevices.Text = "";
+            biosManufacturer.Text = "";
+            biosVersion.Text = "";
+            cdName.Text = "";
+            cdLetter.Text = "";
+            cdType.Text = "";
+            diskName.Text = "";
+            diskSize.Text = "";
+            diskInterface.Text = "";
+            soundName.Text = "";
+            soundManu.Text = "";
+            networkName.Text = "";
+            networkManu.Text = "";
+            videoName.Text = "";
+            videoVersion.Text = "";
+            videoDate.Text = "";
+            baseBoardManu.Text = "";
+            baseBoardProd.Text = "";
+            baseBoardSerial.Text = "";
+            osDirectory.Text = "";
+            osVersion.Text = "";
+            batteryStatus.Text = "";
+            batteryEstimated.Text = "";
+            batteryFullCharge.Text = "";
 
+        }
 
         private void Form1_Load(object sender, EventArgs e)
 
         {
             int ok = 0;                                                             //Parameter for checking the availability of a device.
+            Label_Clean();
             Label_Loading();
 
             string notAvb;
@@ -485,8 +523,8 @@ namespace SysInfo
             }
             catch
             {
-                networkName.Text = notAvb;
-                networkManu.Text = notAvb;
+                //networkName.Text = notAvb;
+                //networkManu.Text = notAvb;
             }
 
             this.Text = "System Information: " + computerSystem.Text;
@@ -659,6 +697,73 @@ namespace SysInfo
             datafrm.setDataClass("Win32_PrinterShare");
             datafrm.Show();
         }
-
+        private void printReportButton_Click(object sender, EventArgs e)
+        {
+            string[] lines = { "System Information Report - " + DateAndTime.DateString,
+                               "=============================================",
+                               "",
+                               button1.Text,
+                               button1.Text + ": " + computerSystem.Text,
+                               label2.Text + ": " + computerType.Text,
+                               label3.Text + ": " + computerManufacturer.Text,
+                               label4.Text + ": " + computerModel.Text,
+                               "",
+                               button2.Text,
+                               label5.Text + ": " + processor.Text,
+                               label1.Text + ": " + processorCores.Text,
+                               label6.Text + ": " + processorSocket.Text,
+                               "",
+                               button3.Text,
+                               label33.Text + ": " + memoryInstalled.Text,
+                               label8.Text + ": " + maxCapacity.Text,
+                               label7.Text + ": " + memoryDevices.Text,
+                               "",
+                               button7.Text,
+                               label11.Text + ": " + biosManufacturer.Text,
+                               label10.Text + ": " + biosVersion.Text,
+                               "",
+                               button13.Text,
+                               label19.Text + ": " + cdName.Text,
+                               label20.Text + ": " + cdLetter.Text,
+                               label25.Text + ": " + cdType.Text,
+                               "",
+                               button14.Text,
+                               label31.Text + ": " + diskName.Text,
+                               label30.Text + ": " + diskSize.Text,
+                               label29.Text + ": " + diskInterface.Text,
+                               "",
+                               button6.Text,
+                               label27.Text + ": " + soundName.Text,
+                               label26.Text + ": " + soundManu.Text,
+                               "",
+                               button5.Text,
+                               label32.Text + ": " + networkName.Text,
+                               label28.Text + ": " + networkManu.Text,
+                               "",
+                               button4.Text,
+                               label9.Text + ": " + videoName.Text,
+                               label12.Text + ": " + videoVersion.Text,
+                               label13.Text + ": " + videoDate.Text,
+                               "",
+                               button12.Text,
+                               label16.Text + ": " + baseBoardManu.Text,
+                               label17.Text + ": " + baseBoardProd.Text,
+                               label18.Text + ": " + baseBoardSerial.Text,
+                               "",
+                               button8.Text,
+                               osName.Text,
+                               label15.Text + ": " + osDirectory.Text,
+                               label14.Text + ": " + osVersion.Text,
+                               "",
+                               button15.Text,
+                               label24.Text + ": " + batteryStatus.Text,
+                               label21.Text + ": " + batteryEstimated.Text,
+                               label22.Text + ": " + batteryFullCharge.Text
+                            
+                                                        
+                                };
+            System.IO.File.WriteAllLines(@"SysInfo - " + computerSystem.Text + ".txt", lines);
+            System.Diagnostics.Process.Start("notepad.exe", @"SysInfo - " + computerSystem.Text + ".txt");
+        }
     }
 }
