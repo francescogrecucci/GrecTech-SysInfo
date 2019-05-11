@@ -73,6 +73,6 @@ All notable changes to this project will be documented in this file.
 ## 4.0.0 - 2019/01/23
 ### Fourth Release (Milestone)
 
-###Added
+### Added
 
-- Report
+- Printable .TXT Reports with all the informations.
